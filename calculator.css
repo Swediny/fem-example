@@ -1,0 +1,47 @@
+.boxes{
+    height: 100px;
+    font-family: "Courier New", Courier, monospace;
+}
+#answer-box{
+    box-sizing: border-box;
+    padding: 30px 20px 15px 0;
+    color: white;
+    text-align: right;
+}
+
+.calculator{
+    /*the outside section that all the buttons are in*/
+    height: 650px;
+    width: 500px;
+    font-size: 35px;
+    background-color: black;
+}
+.orange-boxes{
+    background-color: orange;
+    color: white;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 32.5px;
+    width: 122px;
+}
+.grey-boxes{
+    color: black;
+    text-align: center;
+    background-color: #d8d9db;
+    box-sizing: border-box;
+    padding: 32.5px;
+    width: 122px;
+}
+.c-box{
+    width: 248px;
+    justify-content: none;
+}
+.alignment{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0 0 0;
+}
+.three-quarter-box{
+    width: 374px;
+}
+
